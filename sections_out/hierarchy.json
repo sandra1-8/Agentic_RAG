@@ -1,0 +1,18 @@
+{
+  "u1": "Robust RAG under Noisy and Conflicting Knowledge Bases",
+  "1": "Initial Situation and Problem Statement",
+  "2": "Relevance",
+  "3": "Objectives and Expected Results",
+  "u2": "Specific objectives.",
+  "u3": "Sub-research questions.",
+  "u4": "Research hypotheses.",
+  "4": "Approach and Methods",
+  "4.1": "Datasets and Corpus Preparation",
+  "4.2": "Controlled Document Corruption",
+  "4.3": "Retrieval and Reranking Strategies",
+  "4.4": "Experimental Design",
+  "4.5": "Evaluation and Error Analysis",
+  "4.6": "Work Packages and Feasibility",
+  "4.7": "Reproducibility",
+  "u5": "Literatur"
+}

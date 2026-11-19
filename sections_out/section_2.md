@@ -1,0 +1,9 @@
+# Relevance
+
+Scientific relevance. Reliable evidence retrieval is essential for Retrieval-Augmented Generation (RAG), particularly when document collections contain noisy or conflicting information. Previous research has examined the effects of noise on RAG performance (Wu et al., 2025) and the importance of citation-supported generation (Gao et al., 2023). Building on these findings, this thesis investigates how retrieval and reranking strategies respond to controlled corpus imperfections and how these effects influence evidence selection and answer reliability.
+
+The scientific contribution comprises three components: (1) a reproducible benchmark covering five document-corruption types with documented severity and provenance; (2) a systematic comparison of sparse, dense, and hybrid retrieval, with and without cross-encoder reranking; and (3) an evidence-aware evaluation that distinguishes retrieval, evidence-selection, and generation failures. Rather than introducing a new retrieval algorithm, the study provides a controlled empirical analysis connecting corpus quality, retrieval robustness, and grounded answer generation.
+
+Practical relevance. Organizations increasingly rely on RAG systems to access technical documentation, internal knowledge repositories, and frequently updated information. However, duplicate records, outdated versions, and conflicting statements can compromise the reliability of retrieved evidence. Knowledge updating, retrieval quality, and response reliability are recognized challenges in RAG applications (Gao et al., 2024).
+
+The findings are expected to provide practical guidance on selecting retrieval and reranking configurations under different document-quality conditions. By identifying when particular methods improve evidence selection and when corpus maintenance remains necessary, the study can support more informed RAG system design without requiring the development of a production-ready platform.
